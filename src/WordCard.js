@@ -30,7 +30,7 @@ useEffect(() => {
             guess: data.guess,
             completed: data.completed
         })
-    },[])
+    },[]) 
 
     const activationHandler = (c) => {
         console.log(`${c} has been activated.`)
